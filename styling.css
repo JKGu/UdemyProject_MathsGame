@@ -1,0 +1,139 @@
+html{
+    background: radial-gradient(circle, #fff, #ccc)
+}
+#container{
+    height: 400px;
+    width: 400px;
+    background-color: #9DD2EA;
+    margin: 100px auto;
+    padding: 20px;
+
+    box-shadow: 0px 4px 0px 0px #009de4;
+    position: relative;
+}
+
+#score{
+    background-color: #F1FF92;
+    color: #888e5f;
+    padding: 11px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    box-shadow: 0px 4px 0px #9da853;
+}
+
+#correct{
+    position:absolute;
+    left: 200px;
+    background-color: #42e252;
+    color: white;
+    padding: 11px;
+    display: none;
+}
+
+#wrong{
+    position:absolute;
+    left: 200px;
+    background-color: #e24242;
+    color: white;
+    padding: 11px;
+    display: none;
+}
+
+#question{
+    width: 400 px;
+    height: 150 px;
+    margin: 55px auto 10px auto;
+    background-color: #9DA0EA;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+
+}
+
+
+
+#instruction{
+    width: 400px;
+    height: 50px;
+    background-color: #b481d9;
+    margin: 10px  auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px #8153a8;
+}
+
+#choices{
+    width: 400px;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    float: left;
+    margin-right: 26px;
+    cursor: pointer;
+    box-shadow: 0px 4px #b9b9b9;
+    text-align: center;
+    line-height: 80px;
+    transition: all 0.2s;
+}
+
+.box:hover{
+    background-color: #ccc;
+    box-shadow: #b9b9b9;
+}
+
+.box:active{
+    background-color: #ccc;
+    margin-top: 4px;
+    box-shadow: none;
+
+}
+
+#box4{
+    margin-right: 0px;
+}
+
+#startreset{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+
+    margin-top: 0;
+    cursor: pointer;
+    box-shadow: 0px 4px #b9b9b9;
+    text-align: center;
+    transition: all 0.2s;
+    line-height: 40px;
+}
+
+#startreset:hover{
+    background-color: #ccc;
+    box-shadow: #b9b9b9;
+}
+
+#startreset:active{
+    background-color: #ccc;
+    margin-top: 4px;
+    box-shadow: none;
+
+}
+
+#timeremaining{
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 400px;
+    right: 10px;
+    display: none;
+}
+
+#gameover{
+    display: none;
+}
